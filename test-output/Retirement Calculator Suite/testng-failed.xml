@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Retirement Calculator Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Retirement Calculator Tests(failed)">
+    <classes>
+      <class name="com.demo.selenium.test.RetirementCalculatorTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testRetirementCalculator"/>
+        </methods>
+      </class> <!-- com.demo.selenium.test.RetirementCalculatorTest -->
+    </classes>
+  </test> <!-- Retirement Calculator Tests(failed) -->
+</suite> <!-- Failed suite [Retirement Calculator Suite] -->
